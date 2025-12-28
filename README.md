@@ -2,10 +2,6 @@
 
 A full-stack-capable web application that leverages Generative AI to create personalized holiday postcards. Built with **React**, **TypeScript**, and **Google Gemini**, focusing on clean architecture and type safety.
 
-![Project Status](https://img.shields.io/badge/status-active-success.svg)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 
 ## 🚀 Features
 
