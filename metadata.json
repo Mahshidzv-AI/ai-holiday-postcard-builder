@@ -1,0 +1,5 @@
+{
+  "name": "AI Holiday Postcard Builder",
+  "description": "Create personalized, animated holiday postcards with unique AI-generated wishes and artwork using Google Gemini.",
+  "requestFramePermissions": []
+}
