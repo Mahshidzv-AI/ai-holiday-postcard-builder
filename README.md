@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 📨 AI Holiday Postcard Builder
 
-# Run and deploy your AI Studio app
+A full-stack-capable web application that leverages Generative AI to create personalized holiday postcards. Built with **React**, **TypeScript**, and **Google Gemini**, focusing on clean architecture and type safety.
 
-This contains everything you need to run your app locally.
+![Project Status](https://img.shields.io/badge/status-active-success.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1qesgJ4p_PQeCxb5sXoitOwl32OvkgxpN
+## 🚀 Features
 
-## Run Locally
+- **Generative AI Integration**: Utilizes Google's Gemini Pro model to generate context-aware messages based on recipient, tone, and occasion.
+- **Real-time Rendering**: Dynamically renders a visual "postcard" component with custom CSS and festive animations (Snow Effect).
+- **Type-Safe Architecture**: Fully typed codebase using TypeScript interfaces for API responses and component props.
+- **Modular Design**: Separation of concerns between UI components (`/components`) and API logic (`/services`).
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- **Frontend Framework:** React 18
+- **Language:** TypeScript
+- **Styling:** CSS Modules / Custom CSS
+- **AI/LLM:** Google Gemini API (`@google/generative-ai`)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📂 Project Structure
+
+```bash
+/src
+├── components/          # Reusable UI components
+│   ├── HolidayForm.tsx  # User input handling
+│   ├── PostcardPreview.tsx # Visual rendering logic
+│   └── SnowOverlay.tsx  # Canvas-based animation
+├── services/            # API integration layer
+│   └── geminiService.ts # Isolated Gemini API calls
+├── App.tsx              # Main application layout
+└── main.tsx            # Entry point
