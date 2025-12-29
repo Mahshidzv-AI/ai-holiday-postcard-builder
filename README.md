@@ -29,3 +29,7 @@ A full-stack-capable web application that leverages Generative AI to create pers
 │   └── geminiService.ts # Isolated Gemini API calls
 ├── App.tsx              # Main application layout
 └── main.tsx            # Entry point
+
+
+To run the project please use this link:
+https://ai-holiday-postcard-builder-585918831402.us-west1.run.app
